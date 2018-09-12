@@ -1,10 +1,10 @@
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+
+
 # The Popular Movies Android App
 
 The Popular Movies Android app, was made as part of Udacity's **Android Developer Nanodegree Program**. This app was created from scratch and has adaptive UI for phone and tablet devices. It displays the **_Most Popular_** and **_Top Rated_** Movies. The User has the ability to save favourite movies locally and view them even when the device is offline. After selecting a movie, they will be presented with the movie details (rating, release date, duration, etc.), trailers, reviews and the option to share the movie.
-
-## Download:
-
-You can download an APK build on [releases page]().
 
 
 ## Instructions for Developers
@@ -12,11 +12,10 @@ You can download an APK build on [releases page]().
 The app fetches movie information using The Movie Database (TMDb) API. In order to use the code, you have to enter your own API key into gradle.properties file.
 
 ```Groovy
-MOVIE_DB_API_KEY="Your Api Key"
+MyTheMovieDBApiToken="Your Api Key"
 ```
 
-If you don’t already have a TMDb API key, you will need to create an account and request your own API Key - [TMDb link](link to API Key page)
-
+If you don’t already have a TMDb API key, you will need to create an account and request your own API Key - [TMDb link](https://www.themoviedb.org/documentation/api/)
 
 
 ## Libraries Used
