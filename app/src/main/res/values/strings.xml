@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Popular Movies 3</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_by_pop">Most Popular</string>
+    <string name="sort_by_top">Top Rated</string>
+    <string name="sort_by_fav">Favourites</string>
+
+    <string name="movie_details">Movie Details</string>
+
+
+
+    <string name="details_title_label">Title</string>
+    <string name="details_original_title_label">Original Title</string>
+    <string name="details_plot_label">Plot Synopsis</string>
+    <string name="details_user_rating_label">User Rating</string>
+    <string name="details_release_date_label">Release Date</string>
+    <string name="blank" />
+    <string name="movie_poster">movie poster</string>
+    <string name="movie_name_placeholder">Movie Name</string>
+    <string name="error_mess">Error Message</string>
+    <string name="trailer_image">Trailer Image</string>
+    <string name="trailer_name_placeholder">Trailer Description</string>
+    <string name="user_name">user_name</string>
+    <string name="user_review">user review</string>
+    <string name="user_url">user_URL</string>
+    <string name="trailers">Trailers</string>
+    <string name="comments">Comments</string>
+    <string name="share">Share</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="movie_error">movie_error</string>
+
+
+    <string name="movie_data_error">The movies database information could not be downloaded. \nPlease check the phone is connected to the internet.</string>
+    <string name="isonline_error">no network detected - please ensure WiFi or mobile data is on.</string>
+
+    <string name="trailer_download_error">The trailer information could not be downloaded.</string>
+    <string name="review_download_error">The reviews information could not be downloaded.</string>
+    <string name="user_review_url">User Review URL</string>
+
+
+    <string name="sort_order_savedstate">sortOrderSavedState</string>
+    <string name="no_youtube">Trailer cannot be opened. Please check YouTube or equivalent app is available.</string>
+    <string name="plot">Plot</string>
+    <string name="error_string">Error</string>
+    <string name="error_message_string">ErrorMessage</string>
+    <string name="no_api_key">No TMDb Key provided</string>
+
+    <string-array
+        name="sort_array">
+        <item>@string/sort_by_pop</item>
+        <item>@string/sort_by_top</item>
+        <item>@string/sort_by_fav</item>
+    </string-array>
+
+
+</resources>

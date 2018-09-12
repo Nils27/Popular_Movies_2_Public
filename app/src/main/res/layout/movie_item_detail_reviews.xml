@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_reviewUserName"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/eight_dp"
+        android:layout_marginStart="@dimen/eight_dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:gravity="start"
+        android:padding="@dimen/default_padding"
+        android:text="@string/user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="User Name" />
+
+    <TextView
+        android:id="@+id/tv_reviewLink"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/eight_dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:gravity="start"
+        android:padding="@dimen/default_padding"
+        android:text="@string/user_url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_reviewUserName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_reviewUserName"
+        tools:text="@string/user_review_url" />
+
+    <TextView
+        android:id="@+id/tv_reviewContent"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/eight_dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:gravity="start"
+        android:padding="@dimen/default_padding"
+        android:text="@string/user_review"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_reviewLink"
+        app:layout_constraintTop_toBottomOf="@+id/tv_reviewLink"
+        tools:text="User Review" />
+
+</android.support.constraint.ConstraintLayout>

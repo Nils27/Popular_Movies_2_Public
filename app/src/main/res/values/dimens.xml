@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">2dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="seperator_gap">85dp</dimen>
+    <dimen name="prog_bar_height">42dp</dimen>
+    <dimen name="prog_bar_width">42dp</dimen>
+    <dimen name="seventyfive_dp">75dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="twohundredfifty_dp">250dp</dimen>
+    <dimen name="threesixtwo_dp">362dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+</resources>
